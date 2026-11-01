@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #F8F6F1;
+    --foreground: #242424;
+    --ivory: #F8F6F1;
+    --ivory-light: #FDFBF8;
+    --charcoal: #242424;
+    --charcoal-dark: #141414;
+    --charcoal-subtle: #333333;
+    --bronze: #A58A68;
+    --bronze-light: #C5A880;
+    --bronze-dark: #7E674D;
+    --beige: #DED2C2;
+    --beige-light: #EDE6DC;
+    --border-subtle: rgba(165, 138, 104, 0.18);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+
+  ::selection {
+    background-color: #A58A68;
+    color: #FFFFFF;
+  }
+
+  /* Custom luxury scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F8F6F1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #DED2C2;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #A58A68;
+  }
+}
+
+/* Custom Typography & Utility styling */
+.font-serif-luxury {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: var(--font-jakarta), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.relative {
+  position: relative;
+}
+
+/* Architectural borders and micro-treatments */
+.border-luxury {
+  border-color: rgba(165, 138, 104, 0.22);
+}
+
+.border-luxury-dark {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.bg-ivory {
+  background-color: #F8F6F1;
+}
+
+.bg-charcoal {
+  background-color: #242424;
+}
+
+.bg-charcoal-dark {
+  background-color: #141414;
+}
+
+.text-bronze {
+  color: #A58A68;
+}
+
+.text-bronze-light {
+  color: #C5A880;
+}
+
+.bg-bronze {
+  background-color: #A58A68;
+}
+
+.bg-beige {
+  background-color: #DED2C2;
+}
+
+.bg-beige-light {
+  background-color: #EDE6DC;
+}
+
+/* Subtle architectural glassmorphism */
+.glass-luxury {
+  background: rgba(248, 246, 241, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-dark {
+  background: rgba(20, 20, 20, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
