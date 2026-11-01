@@ -8,8 +8,8 @@ export const studioMetadata = {
   telephone: "+91 97955 34562",
   email: "Shivamgkp220@gmail.com",
   address: {
-    streetAddress: "Studio PARAM SANTI, Lucknow",
-    addressLocality: "Gorakhpur",
+    streetAddress: "Studio PARAM SANTI, Lucknow and Gorakhpur",
+    addressLocality: "Lucknow and Gorakhpur",
     addressRegion: "Uttar Pradesh",
     postalCode: "273001",
     addressCountry: "IN",
